@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProyectoF.MainPage">
+    <ScrollView>
+        <StackLayout Padding="40">
+            <Label x:Name="Marca" FontSize="15" FontFamily="Arial" HorizontalTextAlignment="Center" />
+            <Label x:Name="Modelo" FontSize="15" FontFamily="Arial" HorizontalTextAlignment="Center" />
+            <Label x:Name="Color" FontSize="15" FontFamily="Arial" HorizontalTextAlignment="Center" />
+            <Label x:Name="Anio" FontSize="15" FontFamily="Arial" HorizontalTextAlignment="Center" />
+            <Label x:Name="Placa" FontSize="15" FontFamily="Arial" HorizontalTextAlignment="Center" />
+            <Label x:Name="Tipo" FontSize="15" FontFamily="Arial" HorizontalTextAlignment="Center" />
+            <Label x:Name="nose" FontSize="15" FontFamily="Arial" HorizontalTextAlignment="Center" />
+            <Label x:Name="Fua" FontSize="15" FontFamily="Arial" HorizontalTextAlignment="Center" />
+
+            <Button Text="Encender Automóvil"
+        Clicked="EncenderAutomovil_Clicked"
+        BackgroundColor="Red"
+        TextColor="Black"
+        FontSize="20"
+        CornerRadius="2" />
+
+            <Button Text="Bocinas"
+        Clicked="Bocinas_Clicked"
+        BackgroundColor="Red"
+        TextColor="Black"
+        FontSize="20"
+        CornerRadius="2" />
+
+            <Button Text="Acelerar Automóvil"
+        Clicked="AcelerarAutomovil_Clicked"
+        BackgroundColor="Red"
+        TextColor="Black"
+        FontSize="20"
+        CornerRadius="2" />
+
+            <Button Text="Frenar Automóvil"
+        Clicked="Frenar_Clicked"
+        BackgroundColor="Red"
+        TextColor="Black"
+        FontSize="20"
+        CornerRadius="2" />
+
+            <Button Text="Apagar Automóvil"
+        Clicked="Apagar_Cliked"
+        BackgroundColor="Red"
+        TextColor="Black"
+        FontSize="20"
+        CornerRadius="2" />
+
+
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
